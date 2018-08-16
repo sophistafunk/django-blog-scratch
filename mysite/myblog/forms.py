@@ -5,7 +5,4 @@ from myblog.models import Post
 class PostForm(ModelForm):
     class Meta:
         model = Post
-        fields = ['title',
-                  'text',
-                  'author',
-                  ]
+        fields = ['title', 'text', 'author']
